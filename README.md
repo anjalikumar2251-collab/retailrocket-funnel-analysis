@@ -15,6 +15,18 @@ real user events which made it a good challenge.
 - Most shopping activity happens between 5PM and 9PM
 - Item 187946 was the most viewed product with 3,410 views
 
+## What I recommend
+
+- Push notifications and email campaigns should target 5PM–9PM** — that
+  is when users are most active and most likely to convert
+- Investigate why top viewed items rarely convert** — Item 187946 had
+  3,410 views but the overall cart addition rate is only 3%. This suggests
+  a pricing or product page problem worth digging into
+- Focus on the browse to cart drop off first** — 97% of visitors leave
+  without adding anything. Even moving this to 5% would dramatically
+  increase revenue. A/B testing recommendations or urgency nudges
+  (low stock alerts, limited time offers) could help here
+
 ## Questions I answered using SQL
 1. How many unique visitors does the dataset have?
 2. How many visitors reached each funnel stage?
