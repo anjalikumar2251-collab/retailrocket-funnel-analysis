@@ -25,7 +25,12 @@ conn.close()
 
 # Prepare data
 stages = ['View', 'Add to Cart', 'Purchase']
-values = [1404179, 37722, 11719]
+funnel_dict = {row[0]: row[1] for row in funnel_data}
+values = [
+    funnel_dict.get('view', 0),
+    funnel_dict.get('addtocart', 0),
+    funnel_dict.get('transaction', 0)
+]
 
 hours = [row[0] for row in hours_data]
 hour_counts = [row[1] for row in hours_data]
