@@ -38,8 +38,18 @@ real user events which made it a good challenge.
 - `funnel_analysis_complete.png` — the final dashboard
 - `setup_db.py` — loads the CSV into SQLite database
 
+## How to Run
+
+1. Download the dataset from Kaggle:  
+   https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset  
+2. Place `events.csv` in this project folder (same folder as `setup_db.py`)
+3. Install dependencies: `pip install pandas matplotlib`
+4. Run `python setup_db.py` to create the database
+5. Run `python funnel_chart.py` to generate the chart
+
 ## Dataset
 Retailrocket E-Commerce Dataset from Kaggle  
 Link: kaggle.com/datasets/retailrocket/ecommerce-dataset
+
 
 ![Funnel Chart](funnel_analysis_complete.png)
