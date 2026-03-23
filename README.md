@@ -40,10 +40,10 @@ real user events which made it a good challenge.
 
 ## How to Run
 
-1. Download the dataset from Kaggle:  
-   https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset  
+1. Download the dataset from Kaggle:
+   https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset
 2. Place `events.csv` in this project folder (same folder as `setup_db.py`)
-3. Install dependencies: `pip install pandas matplotlib`
+3. Install dependencies: `pip install -r requirements.txt`
 4. Run `python setup_db.py` to create the database
 5. Run `python funnel_chart.py` to generate the chart
 
