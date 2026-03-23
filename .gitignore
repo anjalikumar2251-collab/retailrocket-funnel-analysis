@@ -1,0 +1,4 @@
+events.csv
+retailrocket.db
+__pycache__/
+*.pyc
